@@ -84,7 +84,7 @@ class MainKtTest {
 
         val result = calculateCommission(paymentType, previousTransactions, amount)
 
-        assertEquals(90.0, result, 0.01)
+        assertEquals(67.0, result, 0.01)
     }
 
     @Test
